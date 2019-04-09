@@ -1,3 +1,5 @@
 The composite UML diagram is
 
-<img src="images/composite.jpg">
+<img src="images/Composite.png">
+
+<img src="images/Composite.jpg">
