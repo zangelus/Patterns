@@ -4,7 +4,8 @@ The Composite UML diagram in this example is
 
 Where the results of the unit test are: 
 
-'<doc>
+```xml
+<doc>
   <pag>
     <para>
       <il>Lorem ipsum dolor sit amet, </il>
@@ -15,4 +16,5 @@ Where the results of the unit test are:
       <il>Quisque sed risus ut tellus varius</il>
     </para>
   </pag>
-</doc>'
+</doc>
+```
