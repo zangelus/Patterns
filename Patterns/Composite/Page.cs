@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Composite
 {
-    class Page
+    class Page:Composite
     {
+        public override string GetHtml()
+        {
+            var sb = new StringBuilder();
+
+            sb.Append("<pag>");
+            foreach (var item in _list)
+            {
+                sb.Append(item.GetHtml());
+            }
+            sb.Append("</pag>");
+
+            return sb.ToString();
+        }
     }
 }

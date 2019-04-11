@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Composite
 {
-    public class Class1
+    class Leaf : IComponent
     {
+        public virtual string GetHtml()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

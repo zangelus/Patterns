@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace Composite
 {
-    class Document : Composite
+    class Paragraph:Composite
     {
         public override string GetHtml()
         {
             var sb = new StringBuilder();
 
-            sb.Append("<doc>");
+            sb.Append("<para>");
             foreach (var item in _list)
             {
                 sb.Append(item.GetHtml());
             }
-            sb.Append("</doc>");
+            sb.Append("</para>");
 
             return sb.ToString();
         }
