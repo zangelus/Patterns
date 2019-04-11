@@ -1,5 +1,20 @@
-The composite UML diagram is
+The Composite UML diagram in this example is
 
-<img src="images/Composite.png">
+<img src="../images/Composite.png">
 
-<img src="images/Composite.jpg">
+Where the results of the unit test are: 
+
+```xml
+<doc>
+  <pag>
+    <para>
+      <il>Lorem ipsum dolor sit amet, </il>
+      <il>consectetur adipiscing elit.</il>
+    </para>
+    <para>
+      <il>Nulla molestie nibh id dui fringilla bibendum.</il>
+      <il>Quisque sed risus ut tellus varius</il>
+    </para>
+  </pag>
+</doc>
+```
