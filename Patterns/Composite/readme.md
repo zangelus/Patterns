@@ -1,5 +1,4 @@
-1. When to use it
-
+1. When to use it: 
 The Composite pattern is usefull when hierarchical or heterogeneus data/objects have to be treated with uniformity (as if they were the same when indeed they are different). This means,treating data without having to cast objects, evaluate their type, check if the object is a parent or a child or if an object contain other objects prior to calling a method.
 
 <img src="../images/Composite.png">
