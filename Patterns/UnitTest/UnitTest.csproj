@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
+    <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>
@@ -66,6 +67,10 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj">
       <Project>{a9e279e1-0c8d-4dae-b620-0796f9107f50}</Project>
       <Name>Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Observer\Observer.csproj">
+      <Project>{db5e2ec6-16cb-4c94-aa15-371bc07fda7b}</Project>
+      <Name>Observer</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
