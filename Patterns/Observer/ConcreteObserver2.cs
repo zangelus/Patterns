@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Observer
 {
-    class ConcreteObserver2
+    class ConcreteObserver2 : IObservable
     {
+        public void Update(int ID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
