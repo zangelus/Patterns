@@ -3,5 +3,8 @@ An object, called the subject, maintains a list of its dependents, called observ
 
 It is mainly used to implement distributed event handling systems, in "event driven" software. Most modern languages such as C# have built-in "event" constructs which implement the observer pattern components.
 
+
 <img src="../images/Observer1.png">
+
+
 <img src="../images/Observer2.png">
