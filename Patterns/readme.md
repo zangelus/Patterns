@@ -11,4 +11,11 @@ No client should be forced to depend on methods it does not use. "Many client-sp
 D - Dependency inversion principle:
 One should "depend upon abstractions, [not] concretions.
 
+
+Patterns that are very similar: Adapter, Facade, Proxy, Decorator. The differences are: 
+Adapter : Makes interfaces compatible. Making two interfaces that are not compatible, compatible.
+Facade : It hides complex logic. Create a layer that exposes in a simpler form the complex interaccions between different objects. It hides complex logic.
+Proxy: Intersects a call and control the access to the object.  Adding an intermediary object between client and server for a given purpose as security, load balance, intersect data, etc.
+Decorator: Adds behavior to a particular object without having to change or open the object.
+
 <img src="../images/x.png">
