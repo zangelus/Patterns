@@ -53,6 +53,7 @@
     <Compile Include="Adapter.cs" />
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
+    <Compile Include="Facade.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestBase.cs" />
@@ -72,6 +73,10 @@
     <ProjectReference Include="..\Decorator\Decorator.csproj">
       <Project>{a9e279e1-0c8d-4dae-b620-0796f9107f50}</Project>
       <Name>Decorator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Facade\Facade.csproj">
+      <Project>{3e006abf-0d53-49bf-8b3a-8e8acf01672b}</Project>
+      <Name>Facade</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{db5e2ec6-16cb-4c94-aa15-371bc07fda7b}</Project>
