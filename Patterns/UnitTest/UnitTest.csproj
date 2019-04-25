@@ -56,6 +56,7 @@
     <Compile Include="Facade.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton.cs" />
     <Compile Include="TestBase.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,6 +82,10 @@
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{db5e2ec6-16cb-4c94-aa15-371bc07fda7b}</Project>
       <Name>Observer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Singleton\Singleton.csproj">
+      <Project>{0e233b92-9fdb-4706-8472-120767f59033}</Project>
+      <Name>Singleton</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
