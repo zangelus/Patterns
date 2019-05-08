@@ -54,6 +54,8 @@
     <Compile Include="Composite.cs" />
     <Compile Include="Decorator.cs" />
     <Compile Include="Facade.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="LinqByExample.cs" />
     <Compile Include="Observer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton.cs" />
@@ -78,6 +80,14 @@
     <ProjectReference Include="..\Facade\Facade.csproj">
       <Project>{3e006abf-0d53-49bf-8b3a-8e8acf01672b}</Project>
       <Name>Facade</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Factory\Factory.csproj">
+      <Project>{54618d8c-3301-49d6-b266-c10868996865}</Project>
+      <Name>Factory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LinqByExample\LinqByExample.csproj">
+      <Project>{c9a5d107-21e9-47bc-bb46-e87be3488d4f}</Project>
+      <Name>LinqByExample</Name>
     </ProjectReference>
     <ProjectReference Include="..\Observer\Observer.csproj">
       <Project>{db5e2ec6-16cb-4c94-aa15-371bc07fda7b}</Project>

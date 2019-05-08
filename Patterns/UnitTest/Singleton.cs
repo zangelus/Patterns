@@ -24,7 +24,7 @@ namespace UnitTest
 
             var catalog = CarCatalog.GetCarCatalog();
 
-            var result = catalog.GetNext
+            //var result = catalog.GetNext
 
             foreach(var car in catalog.GetNext)
             {
